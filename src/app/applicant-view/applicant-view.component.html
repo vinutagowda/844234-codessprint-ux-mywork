@@ -1,0 +1,29 @@
+<h2>Applicantion View</h2>
+
+<a routerLink="addApp">New Applicant</a>
+
+<table border="3">
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>Package</th>
+        <th>TrainerPreference</th>
+        <th>Phone Number</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let a of apps">
+            <td>{{a.name}}</td>
+            <td>{{a.age}}</td>
+            <td>{{a.address}}</td>
+            <td>{{a.city}}</td>
+            <td>{{a.package}}</td>
+            <td>{{a.trainerPreference}}</td>
+            <td>{{a.phone}}</td>
+           
+        </tr>
+    </tbody>
+</table>

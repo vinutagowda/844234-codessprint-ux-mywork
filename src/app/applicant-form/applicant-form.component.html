@@ -1,0 +1,40 @@
+<h1> Applicants</h1>
+<form (ngSubmit)="save()">
+
+    <div>
+        <label> Name</label>
+        <input type="text" name="fnm" [(ngModel)]="app.name"/>
+    </div>
+    
+    
+
+    <div>
+        <label>Age</label>
+        <input type="number" name="age" [(ngModel)]="app.age"/>
+    </div>
+    <div>
+        <label>Address</label>
+        <input type="text" name="address" [(ngModel)]="app.address"/>
+    </div>
+    <div>
+        <label>city</label>
+        <input type="tect" name="city" [(ngModel)]="app.city"/>
+    </div>
+    <div>
+        <label>package</label>
+        <input type="text" name="package" [(ngModel)]="app.package"/>
+    </div>
+    <div>
+        <label>trainerPreference</label>
+        <input type="text" name="trainerpreference" [(ngModel)]="app.trainerPreference"/>
+    </div>
+    <div>
+        <label>phone</label>
+        <input type="text" name="phone" [(ngModel)]="app.phone"/>
+    </div>
+    <div>
+        
+        <button (click)="ngSubmit">save</button>
+    </div>
+
+</form>

@@ -1,0 +1,33 @@
+{
+    "allapplicants":[
+        {
+            "name":"vinutagowda",
+            "age":22,
+            "address":"devanahalli,karnataka,india,56110",
+            "city":"bangalore",
+            "package":500000,
+            "trainerPreference":"femaleTrainer",
+            "phone":"9071310843"
+
+
+        },
+        {
+            "name":"yamini",
+            "age":22,
+            "address":"bangalore,karnataka,india,56110",
+            "city":"bangalore",
+            "package":600000,
+            "trainerPreference":"femaleTrainer",
+            "phone":"9071234543"
+        },
+        {
+            "name":"vandana",
+            "age":22,
+            "address":"bangalore,karnataka,india,56110",
+            "city":"bangalore",
+            "package":700000,
+            "trainerPreference":"femaleTrainer",
+            "phone":"8911234543"
+        }
+    ]
+}
